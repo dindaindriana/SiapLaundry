@@ -12,3 +12,15 @@ body {
     min-height: 60vh;
     background-position: center;
 }
+
+
+.line-border {
+    width: 30px !important;
+    height: 5px;
+    background-color: #ddd !important;
+}
+
+.line-border-bold {
+    width: 50px !important;
+    height: 5px !important;
+}
