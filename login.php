@@ -53,7 +53,7 @@ if (!empty($_SESSION['username_siaplaundry'])) {
                             </div>
                             <div class="form-group">
                                 <div class="mb-3">
-                                    <label for="floating Input" class="form-label text-success fw-medium">Email</label>
+                                    <label for="floatingInput" class="form-label text-success fw-medium">Email</label>
                                     <input name="username" type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required>
                                     <div class="invalid-feedback mb-2 mt-2">
                                         Masukkan email yang valid.
@@ -61,7 +61,7 @@ if (!empty($_SESSION['username_siaplaundry'])) {
                                 </div>
                                 <div class="mb-3">
                                     <label for="inputPassword2" class="text-success fw-medium">Kata Sandi</label>
-                                    <input type="password" class="form-control border-success" id="inputPassword2" placeholder="Kata Sandi" required>
+                                    <input type="password" class="form-control border-success" id="inputPassword2" placeholder="Kata Sandi" name="password" required>
                                     <div class="invalid-feedback">
                                         Masukkan Kata Sandi.
                                     </div>
@@ -71,13 +71,21 @@ if (!empty($_SESSION['username_siaplaundry'])) {
                         </form>
                     </div>
                 </div>
+                <div class="text-center mt-3">
+                    <p>email: owner@owner.com</p>
+                    <p>email: admin@admin.com</p>
+                    <p>email: kasir@kasir.com</p>
+                    <p>email: pelanggan@pelanggan.com</p>
+                    <p>passowrd : password </p>
+                </div>
             </div>
         </div>
     </div>
 
+
     <!-- Footer -->
     <footer class="container">
-        <div class="row text-center">
+        <div class="row text-center mt-5">
             <div class="col-12">
                 <div class="container">
                     <footer>
@@ -91,7 +99,7 @@ if (!empty($_SESSION['username_siaplaundry'])) {
     </footer>
     <!-- Footer End -->
     <!-- Bootstrap JS -->
-    <script src="../assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
 
     <!-- AOS Animate -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

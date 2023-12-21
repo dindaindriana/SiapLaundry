@@ -17,15 +17,15 @@ $hasil = mysqli_fetch_array($query);
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Siap Laundry</title>
 
-    <link rel="shortcut icon" href="../assets/img/tid.png" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/img/tid.png" type="image/x-icon">
 
-    <link rel="shortcut icon" href="../assets/img/tid.png" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/img/tid.png" type="image/x-icon">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 
     <!-- My CSS -->
-    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -35,6 +35,11 @@ $hasil = mysqli_fetch_array($query);
 
     <!-- AOS Animate -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+<!--
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"> -->
 </head>
 
 <body>

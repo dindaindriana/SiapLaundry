@@ -19,7 +19,7 @@
             <div class="col-md-3 mb-4">
                 <a href="layanan/index.html" class="card text-decoration-none rounded-4 bg-white shadow-sm border-success border-2 position-relative" style="height: 250px">
                     <div class="card-body text-center">
-                        <img src="../assets/img/produk.png" alt="Produk" class="text-center mx-auto d-block" height="160px">
+                        <img src="assets/img/produk.png" alt="Produk" class="text-center mx-auto d-block" height="160px">
                         <h5 class="mt-3 text-dark">Layanan</h5>
                     </div>
                 </a>
@@ -27,7 +27,7 @@
             <div class="col-md-3 mb-4">
                 <a href="profil/index.html" class="card text-decoration-none rounded-4 bg-white shadow-sm border-success border-2 position-relative" style="height: 250px">
                     <div class="card-body text-center">
-                        <img src="../assets/img/profil.png" alt="Profil" class="text-center mx-auto d-block img-fluid" width="100%" height="160px">
+                        <img src="assets/img/profil.png" alt="Profil" class="text-center mx-auto d-block img-fluid" width="100%" height="160px">
                         <h5 class="mt-3 text-dark">Profil</h5>
                     </div>
                 </a>
@@ -35,7 +35,7 @@
             <div class="col-md-3 mb-4">
                 <a href="karyawan/index.html" class="card text-decoration-none rounded-4 bg-white shadow-sm border-success border-2 position-relative" style="height: 250px">
                     <div class="card-body text-center">
-                        <img src="../assets/img/karyawan.png" alt="Karyawan" class="text-center mx-auto d-block" width="100%" height="160px">
+                        <img src="assets/img/karyawan.png" alt="Karyawan" class="text-center mx-auto d-block" width="100%" height="160px">
                         <h5 class="mt-3 text-dark">Karyawan</h5>
                     </div>
                 </a>
@@ -43,7 +43,7 @@
             <div class="col-md-3 mb-4">
                 <a href="toko/index.html" class="card text-decoration-none rounded-4 bg-white shadow-sm border-success border-2 position-relative" style="height: 250px">
                     <div class="card-body text-center">
-                        <img src="../assets/img/toko.png" alt="Toko" class="text-center mx-auto d-block" width="100%" height="160px">
+                        <img src="assets/img/toko.png" alt="Toko" class="text-center mx-auto d-block" width="100%" height="160px">
                         <h5 class="mt-3 text-dark">Toko</h5>
                     </div>
                 </a>
@@ -54,7 +54,7 @@
             <div class="col-md-3 mb-4">
                 <a href="keuangan/index.html" class="card text-decoration-none rounded-4 bg-white shadow-sm border-success border-2 position-relative" style="height: 250px">
                     <div class="card-body text-center">
-                        <img src="../assets/img/lapkeuangan.png" alt="Laporan Keuangan" class="text-center mx-auto d-block" width="100%" height="160px">
+                        <img src="assets/img/lapkeuangan.png" alt="Laporan Keuangan" class="text-center mx-auto d-block" width="100%" height="160px">
                         <h5 class="mt-3 text-dark">Laporan Keuangan</h5>
                     </div>
                 </a>
@@ -62,7 +62,7 @@
             <div class="col-md-3 mb-4">
                 <a href="pengeluaran/index.html" class="card text-decoration-none rounded-4 bg-white shadow-sm border-success border-2 position-relative" style="height: 250px">
                     <div class="card-body text-center">
-                        <img src="../assets/img/pengeluaran.png" alt="Pengeluaran" class="text-center mx-auto d-block" width="100%" height="160px">
+                        <img src="assets/img/pengeluaran.png" alt="Pengeluaran" class="text-center mx-auto d-block" width="100%" height="160px">
                         <h5 class="mt-3 text-dark">Pengeluaran</h5>
                     </div>
                 </a>
@@ -73,7 +73,7 @@
             <div class="col-md-3 mb-4">
                 <a href="" data-bs-toggle="modal" data-bs-target="#tutorial" class="card text-decoration-none rounded-4 bg-white shadow-sm border-success border-2 position-relative" style="height: 250px">
                     <div class="card-body text-center">
-                        <img src="../assets/img/tutorial.png" alt="Tutorial" class="text-center mx-auto d-block" width="100%" height="160px">
+                        <img src="assets/img/tutorial.png" alt="Tutorial" class="text-center mx-auto d-block" width="100%" height="160px">
                         <h5 class="mt-3 text-dark">Tutorial</h5>
                     </div>
                 </a>

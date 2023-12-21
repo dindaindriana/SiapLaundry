@@ -1,5 +1,5 @@
 <!-- Navbar -->
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
+<nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
         <div class="container">
             <a class="text-decoration-none text-dark fw-bold fs-5" href="#"> <span class="d-block"
                     style="margin-bottom: -10px;">SIAP</span> LAUNDRY</a>
@@ -10,24 +10,54 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                <?php if ($hasil['level'] == 1 || $hasil['level'] == 2 || $hasil['level'] == 3) { ?>
                     <li class="nav-item">
-                        <a class="nav-link <?php echo ((isset($_GET['x']) && $_GET['x'] == 'home') || !isset($_GET['x'])) ? 'active link-light' : 'link-dark'; ?>"  href="home">Home</a>
+                        <a class="nav-link <?php echo ((isset($_GET['x']) && $_GET['x'] == 'home') || !isset($_GET['x'])) ? 'active link-dark' : 'link-secondary'; ?>"  href="home">Home</a>
                     </li>
+                    <?php } ?>
+                <?php if ($hasil['level'] == 1 || $hasil['level'] == 2 || $hasil['level'] == 3) { ?>
                     <li class="nav-item">
-                        <a class="nav-link <?php echo ((isset($_GET['x']) && $_GET['x'] == 'pelanggan') || !isset($_GET['x'])) ? 'active link-light' : 'link-dark'; ?>"  href="pelanggan">Pelanggan</a>
+                        <a class="nav-link <?php echo ((isset($_GET['x']) && $_GET['x'] == 'daftarlayanan') || !isset($_GET['x'])) ? 'active link-dark' : 'link-secondary'; ?>"  href="daftarlayanan">Daftar Layanan</a>
                     </li>
+                    <?php } ?>
+                    <?php if ($hasil['level'] == 1 || $hasil['level'] == 2) { ?>
                     <li class="nav-item">
-                        <a class="nav-link <?php echo ((isset($_GET['x']) && $_GET['x'] == 'transaksi') || !isset($_GET['x'])) ? 'active link-light' : 'link-dark'; ?>"  href="transaksi">Transaksi</a>
+                        <a class="nav-link <?php echo ((isset($_GET['x']) && $_GET['x'] == 'pesanan') || !isset($_GET['x'])) ? 'active link-dark' : 'link-secondary'; ?>"  href="pesanan">Pesanan</a>
                     </li>
+                    <?php } ?>
+                    <?php if ($hasil['level'] == 1 || $hasil['level'] == 2) { ?>
                     <li class="nav-item">
-                        <a class="nav-link <?php echo ((isset($_GET['x']) && $_GET['x'] == 'lainnya') || !isset($_GET['x'])) ? 'active link-light' : 'link-dark'; ?>"  href="lainnya">Lainnya</a>
+                        <a class="nav-link <?php echo ((isset($_GET['x']) && $_GET['x'] == 'kelola') || !isset($_GET['x'])) ? 'active link-dark' : 'link-secondary'; ?>"  href="kelola">Proses</a>
                     </li>
+                    <?php } ?>
+                    <?php if ($hasil['level'] == 1) { ?>
                     <li class="nav-item">
-                        <a class="nav-link <?php echo ((isset($_GET['x']) && $_GET['x'] == 'user') || !isset($_GET['x'])) ? 'active link-light' : 'link-dark'; ?>"  href="user">Lainnya</a>
+                        <a class="nav-link <?php echo ((isset($_GET['x']) && $_GET['x'] == 'report') || !isset($_GET['x'])) ? 'active link-dark' : 'link-secondary'; ?>"  href="report">Report</a>
                     </li>
+                    <?php } ?>
+                    <?php if ($hasil['level'] == 1 || $hasil['level'] == 2) { ?>
+                    <li class="nav-item">
+                        <a class="nav-link <?php echo ((isset($_GET['x']) && $_GET['x'] == 'user') || !isset($_GET['x'])) ? 'active link-dark' : 'link-secondary'; ?>"  href="user">User</a>
+                    </li>
+                    <?php } ?>
+                    <?php if ($hasil['level'] == 4) { ?>
+                    <li class="nav-item">
+                        <a class="nav-link <?php echo ((isset($_GET['x']) && $_GET['x'] == 'tentang') || !isset($_GET['x'])) ? 'active link-dark' : 'link-secondary'; ?>"  href="tentang">Tentang</a>
+                    </li>
+                    <?php } ?>
+                    <?php if ($hasil['level'] == 4) { ?>
+                    <li class="nav-item">
+                        <a class="nav-link <?php echo ((isset($_GET['x']) && $_GET['x'] == 'history') || !isset($_GET['x'])) ? 'active link-dark' : 'link-secondary'; ?>"  href="history">History</a>
+                    </li>
+                    <?php } ?>
+                    <?php if ($hasil['level'] == 1 || $hasil['level'] == 2) { ?>
+                    <li class="nav-item">
+                        <a class="nav-link <?php echo ((isset($_GET['x']) && $_GET['x'] == 'lainnya') || !isset($_GET['x'])) ? 'active link-dark' : 'link-secondary'; ?>"  href="lainnya">Lainnya</a>
+                    </li>
+                    <?php } ?>
                 </ul>
                 <div class="d-flex" role="search">
-                    <a class="btn btn-outline-success rounded-md" href="../auth/login.html" role="button">
+                    <a class="btn btn-outline-success rounded-md" href="logout">
                         <svg
                             xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-logout" width="24"
                             height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
