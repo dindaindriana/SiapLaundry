@@ -1,6 +1,5 @@
 <?php
-    $conn = mysqli_connect("localhost","root","","db_siaplaundry");
-    // $conn = mysqli_connect("localhost","u837952942_siaplaundry","V:u0;+FYX","u837952942_siaplaundry");
+    $conn = mysqli_connect("localhost","root","","siap_laundry");
     if(!$conn){
         echo "Koneksi gagal";
     }

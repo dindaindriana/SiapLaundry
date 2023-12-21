@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siap Laundry</title>
+
+    <link rel="shortcut icon" href="../../assets/img/tid.png" type="image/x-icon">
+
+    <link rel="shortcut icon" href="../../assets/img/tid.png" type="image/x-icon">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../../assets/css/bootstrap.min.css">
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="../../assets/css/style.css">
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!--icon-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+    <!-- AOS Animate -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous"> -->
+</head>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+            <a class="text-decoration-none text-dark fw-bold fs-5" href="#"> <span class="d-block"
+                    style="margin-bottom: -10px;">SIAP</span> LAUNDRY</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="transaksi.html">Transaksi</a>
+                    </li>
+                </ul>
+                <div class="d-flex" role="search">
+                    <a class="btn btn-outline-success rounded-md" href="../auth/login.html" role="button">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-logout" width="24"
+                            height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                            <path d="M14 8v-2a2 2 0 0 0 -2 -2h-7a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h7a2 2 0 0 0 2 -2v-2">
+                            </path>
+                            <path d="M9 12h12l-3 -3"></path>
+                            <path d="M18 15l3 -3"></path>
+                        </svg>
+                        Logout</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Jumbotron -->
+    <section id="jumbotron">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-white mt-5">
+                    <h3 class="mt-5">Hallo, Dinda</h3>
+                    <h1 class="display-4">SIAP LAUNDRY</h1>
+                    <p>Mari tingkatkan kebersihan bersama Siap Laundry</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Jumbotron End -->
+
+    <!-- Table -->
+    <div class="container">
+        <div class="row mt-5">
+                <h4 class="mb-3">Daftar Rincian Transaksi</h4>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row justify-content-end">
+            <div class="col-md-4 d-flex align-items-center gap-2">
+                <input type="search" class="form-control" placeholder="Cari.." id="cari">
+            </div>
+        </div>
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col" width="5%">#</th>
+                        <th scope="col">Id Cucian</th>
+                        <th scope="col">Nama Layanan</th>
+                        <th scope="col">Nama Pegawai</th>
+                        <th scope="col">Jumlah</th>
+                        <th scope="col">Harga</th>
+                        <th scope="col" width="5%">Aksi</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>10</td>
+                        <td>Cuci Gosok</td>
+                        <td>Dinda</td>
+                        <td>2</td>
+                        <td>14000</td>
+                        <td>
+                            <div class="dropdown">
+                                <a class="btn " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                        class="icon icon-tabler icon-tabler-dots-vertical" width="24" height="24"
+                                        viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                                        stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                        <path d="M12 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"></path>
+                                        <path d="M12 19m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"></path>
+                                        <path d="M12 5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"></path>
+                                    </svg>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><button type="button" class="dropdown-item" data-bs-toggle="modal"
+                                            data-bs-target="#edit">
+                                            Edit
+                                        </button></li>
+                                    <li><button type="button" class="dropdown-item" data-bs-toggle="modal"
+                                            data-bs-target="#hapus">
+                                            Hapus
+                                        </button></li>
+                                </ul>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="d-flex justify-content-center mt-4">
+            <nav aria-label="...">
+                <ul class="pagination">
+                    <li class="page-item disabled">
+                        <a class="page-link">Previous</a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item active" aria-current="page">
+                        <a class="page-link" href="#">2</a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">Next</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <!-- Table End -->
+
+    <!-- Modal Tambah -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Form Tambah Data</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="nama layanan" class="form-label">Nama Layanan</label>
+                            <input type="text" class="form-control" id="nama layanan">
+                        </div>
+                        <div class="mb-3">
+                            <label for="jenis_satuan" class="form-label">Jenis Satuan</label>
+                            <input type="text" class="form-control" id="jenis_satuan">
+                        </div>
+                        <div class="mb-3">
+                            <label for="harga" class="form-label">Harga</label>
+                            <input type="number" class="form-control" id="harga">
+                        </div>
+                        <div class="d-flex justify-content-end gap-2">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
+                            <button type="button" class="btn btn-success">Simpan</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal Tambah End -->
+
+    <!-- Modal Edit -->
+    <div class="modal fade" id="edit" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Form Edit Data</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="nama layanan" class="form-label">Nama Layanan</label>
+                            <input type="text" class="form-control" id="nama layanan" value="Cuci dan Setrika">
+                        </div>
+                        <div class="mb-3">
+                            <label for="jenis_satuan" class="form-label">Jenis Satuan</label>
+                            <input type="text" class="form-control" id="jenis_satuan" value="Kilogram">
+                        </div>
+                        <div class="mb-3">
+                            <label for="harga" class="form-label">Harga</label>
+                            <input type="number" class="form-control" id="harga" value="7000">
+                        </div>
+                        <div class="d-flex justify-content-end gap-2">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
+                            <button type="button" class="btn btn-success">Simpan</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal Edit End -->
+
+    <!-- Modal Hapus -->
+    <div class="modal fade" id="hapus" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-sm">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Anda Yakin?</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex justify-content-center w-100 gap-2">
+                    <button type="button" class="btn btn-outline-success d-block w-100"
+                        data-bs-dismiss="modal">Batal</button>
+                    <button type="button" class="btn btn-success d-block w-100">Hapus</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal Hapus End -->
+
+    <!-- Footer -->
+    <footer class="container">
+        <div class="row text-center mt-5">
+            <div class="col-12">
+                <div class="container">
+                    <footer>
+                        <div class="d-flex flex-column flex-sm-row justify-content-center pt-4 mt-4 border-top">
+                            <p>&copy; 2023 Dinda Indriana All rights reserved</p>
+                        </div>
+                    </footer>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- Bootstrap JS -->
+    <script src="../assets/js/bootstrap.min.js"></script>
+
+    <!-- AOS Animate -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
